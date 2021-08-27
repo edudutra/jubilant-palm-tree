@@ -1,0 +1,130 @@
+{
+  "request_parameter_supported": true,
+  "claims_parameter_supported": true,
+  "introspection_endpoint": "https:\/\/is-hml.modal.com.br\/oauth2\/introspect",
+  "Response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "scopes_supported": [
+    "openid",
+    "consents",
+    "resources"
+  ],
+  "check_session_iframe": "https:\/\/is-hml.modal.com.br\/oidc\/checksession",
+  "backchannel_logout_supported": true,
+  "issuer": "https:\/\/is-hml.modal.com.br\/oauth2\/token",
+  "acr_values_supported": [
+    "urn:brasil:openbanking:loa2",
+    "urn:brasil:openbanking:loa3"
+  ],
+  "authorization_endpoint": "https:\/\/is-hml.modal.com.br\/oauth2\/authorize",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "request_object_encryption_enc_values_supported": [
+    "A256GCM"
+  ],
+  "claims_supported": [
+    "cpf",
+    "cnpj",
+    "profile",
+    "zoneinfo",
+    "phone_number_verified",
+    "picture",
+    "postal_code",
+    "name",
+    "groups",
+    "locale",
+    "address",
+    "preferred_username",
+    "middle_name",
+    "street_address",
+    "country",
+    "website",
+    "phone_number",
+    "formatted",
+    "gender",
+    "sub",
+    "nickname",
+    "email",
+    "birthdate",
+    "upn",
+    "given_name",
+    "updated_at",
+    "locality",
+    "region",
+    "email_verified",
+    "family_name",
+    "iss",
+    "acr"
+  ],
+  "userinfo_signing_alg_values_supported": [
+    "PS256"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "private_key_jwt"
+  ],
+  "tls_client_certificate_bound_access_tokens": true,
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "backchannel_logout_session_supported": true,
+  "token_endpoint": "https:\/\/is-hml.modal.com.br\/oauth2\/token",
+  "response_types_supported": [
+    "code",
+    "code id_token token",
+    "code id_token",
+    "id_token",
+    "code token",
+    "none",
+    "device",
+    "token"
+  ],
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "grant_types_supported": [
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:saml2-bearer",
+    "password",
+    "client_credentials",
+    "authorization_code",
+    "urn:ietf:params:oauth:grant-type:uma-ticket",
+    "account_switch",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "end_session_endpoint": "https:\/\/is-hml.modal.com.br\/oidc\/logout",
+  "revocation_endpoint": "https:\/\/is-hml.modal.com.br\/oauth2\/revoke",
+  "userinfo_endpoint": "https:\/\/is-hml.modal.com.br\/oauth2\/userinfo",
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "PS256"
+  ],
+  "code_challenge_methods_supported": [
+    "S256",
+    "plain"
+  ],
+  "jwks_uri": "https:\/\/bhlis01-rj01.modal.net.br:5020\/oauth2\/jwks",
+  "subject_types_supported": [
+    "public"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "PS256"
+  ],
+  "registration_endpoint": "https:\/\/is-hml.modal.com.br\/keymanager-operations\/dcr\/register",
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "none"
+  ],
+  "request_object_encryption_alg_values_supported": [
+    "RSA-OAEP"
+  ]
+}
