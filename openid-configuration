@@ -109,7 +109,7 @@
     "S256",
     "plain"
   ],
-  "jwks_uri": "https:\/\/bhlis01-rj01.modal.net.br:5020\/oauth2\/jwks",
+  "jwks_uri": "https:\/\/is-hml.modal.com.br\/oauth2\/jwks",
   "subject_types_supported": [
     "public"
   ],
